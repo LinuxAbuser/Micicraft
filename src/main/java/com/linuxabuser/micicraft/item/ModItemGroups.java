@@ -1,8 +1,8 @@
 package com.linuxabuser.micicraft.item;
 
 import com.linuxabuser.micicraft.Micicraft;
+import com.linuxabuser.micicraft.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -21,6 +21,8 @@ public class ModItemGroups
                 .displayName(Text.translatable("itemgroup.micicraft.micicraft_items"))
                 .entries((displayContext, entries) ->
                 {
+                    entries.add(ModItems.ITEM_GROUND_BEEF);
+                    entries.add(ModItems.ITEM_GROUND_PORK);
                     entries.add(ModItems.ITEM_MIC_RAW);
                     entries.add(ModItems.ITEM_MIC);
                 })
@@ -32,8 +34,12 @@ public class ModItemGroups
         Registries.ITEM_GROUP, Identifier.of(Micicraft.MOD_ID, "micicraft_blocks"),
         FabricItemGroup
                 .builder()
-                //TODO: Add icon for Micicraft blocks: .icon(() -> new ItemStack((ModItems.GRATAR?)));
+                .icon(() -> new ItemStack(ModBlocks.BLOCK_GRATAR))
                 .displayName(Text.translatable("itemgroup.micicraft.micicraft_blocks"))
+                .entries((displayContext, entries) ->
+                {
+                    entries.add((ModBlocks.BLOCK_GRATAR));
+                })
                 .build()
     );
 

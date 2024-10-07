@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern":
+  [
+    "BBB",
+    "BPP",
+    "PP "
+  ],
+  "key":
+  {
+    "B":
+    {
+      "item": "micicraft:item_ground_beef"
+    },
+    "P":
+    {
+      "item": "micicraft:item_ground_pork"
+    }
+  },
+  "result":
+  {
+    "id": "micicraft:item_mic_raw",
+    "count": 4
+  }
+}

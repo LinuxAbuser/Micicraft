@@ -27,7 +27,7 @@ public class ModBlocks
             .mapColor(MapColor.IRON_GRAY)
             .strength(5f, 1200f)
             .requiresTool()
-            .sounds(BlockSoundGroup.ANVIL)
+            .sounds(BlockSoundGroup.STONE)
             .pistonBehavior(PistonBehavior.BLOCK)
         )
     );

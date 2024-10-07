@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "SP"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "tag": "minecraft:swords"
+    },
+    "P":
+    {
+      "item": "minecraft:porkchop"
+    }
+  },
+  "result":
+  {
+    "id": "micicraft:item_ground_pork",
+    "count": 4
+  }
+}

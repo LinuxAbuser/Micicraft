@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "SB"
+  ],
+  "key":
+  {
+    "S":
+    {
+      "tag": "minecraft:swords"
+    },
+    "B":
+    {
+      "item": "minecraft:beef"
+    }
+  },
+  "result":
+  {
+    "id": "micicraft:item_ground_beef",
+    "count": 4
+  }
+}
