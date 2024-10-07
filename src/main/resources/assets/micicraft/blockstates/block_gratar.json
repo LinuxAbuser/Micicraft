@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "micicraft:block/block_gratar"
+    }
+  }
+}

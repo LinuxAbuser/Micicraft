@@ -1,5 +1,6 @@
 package com.linuxabuser.micicraft;
 
+import com.linuxabuser.micicraft.block.ModBlocks;
 import com.linuxabuser.micicraft.item.ModItemGroups;
 import com.linuxabuser.micicraft.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class Micicraft implements ModInitializer
 	{
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
